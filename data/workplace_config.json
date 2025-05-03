@@ -1,0 +1,222 @@
+{
+    "organization": {
+      "name": "PixelPulse Studios",
+      "teams": [
+        {
+          "teamName": "Project Nova",
+          "assigned_resources": {
+            "teamManager": {
+              "employeeId": "MGR-001",
+              "name": "Jordan Blaze",
+              "designation": "Team Manager",
+              "skills": ["Agile Management", "Resource Planning", "Roadmapping"],
+              "hourlyRate": 75,
+              "assignedProjectHours": 320,
+              "availability": {
+                "timezone": "MST",
+                "workingHours": {
+                  "monday": [9, 17],
+                  "tuesday": [9, 17],
+                  "wednesday": [9, 17],
+                  "thursday": [9, 17],
+                  "friday": [9, 17]
+                }
+              }
+            },
+            "teamMembers": [
+              {
+                "employeeId": "DEV-001",
+                "name": "Aria Stone",
+                "designation": "Frontend Developer",
+                "skills": ["React.js", "Next.js", "Tailwind CSS"],
+                "hourlyRate": 50,
+                "assignedProjectHours": 350,
+                "availability": {
+                  "timezone": "MST",
+                  "workingHours": {
+                    "monday": [9, 17],
+                    "tuesday": [9, 17],
+                    "wednesday": [9, 17],
+                    "thursday": [9, 17],
+                    "friday": [9, 17]
+                  }
+                }
+              },
+              {
+                "employeeId": "DEV-002",
+                "name": "Mason Rivers",
+                "designation": "Backend Developer",
+                "skills": ["Node.js", "Express.js", "MongoDB"],
+                "hourlyRate": 55,
+                "assignedProjectHours": 370,
+                "availability": {
+                  "timezone": "MST",
+                  "workingHours": {
+                    "monday": [9, 17],
+                    "tuesday": [9, 17],
+                    "wednesday": [9, 17],
+                    "thursday": [9, 17],
+                    "friday": [9, 17]
+                  }
+                }
+              },
+              {
+                "employeeId": "DEV-003",
+                "name": "Luna Cross",
+                "designation": "Full Stack Developer",
+                "skills": ["React.js", "Node.js", "GraphQL"],
+                "hourlyRate": 60,
+                "assignedProjectHours": 380,
+                "availability": {
+                  "timezone": "MST",
+                  "workingHours": {
+                    "monday": [9, 17],
+                    "tuesday": [9, 17],
+                    "wednesday": [9, 17],
+                    "thursday": [9, 17],
+                    "friday": [9, 17]
+                  }
+                }
+              },
+              {
+                "employeeId": "DEV-004",
+                "name": "Eli Vance",
+                "designation": "Product Manager",
+                "skills": ["Agile", "Scrum", "Roadmapping"],
+                "hourlyRate": 70,
+                "assignedProjectHours": 330,
+                "availability": {
+                  "timezone": "MST",
+                  "workingHours": {
+                    "monday": [9, 17],
+                    "tuesday": [9, 17],
+                    "wednesday": [9, 17],
+                    "thursday": [9, 17],
+                    "friday": [9, 17]
+                  }
+                }
+              },
+              {
+                "employeeId": "DEV-005",
+                "name": "Nico Storm",
+                "designation": "UX/UI Designer",
+                "skills": ["Figma", "Sketch", "Design Systems"],
+                "hourlyRate": 45,
+                "assignedProjectHours": 300,
+                "availability": {
+                  "timezone": "MST",
+                  "workingHours": {
+                    "monday": [9, 17],
+                    "tuesday": [9, 17],
+                    "wednesday": [9, 17],
+                    "thursday": [9, 17],
+                    "friday": [9, 17]
+                  }
+                }
+              },
+              {
+                "employeeId": "DEV-006",
+                "name": "Sage Orion",
+                "designation": "QA Engineer",
+                "skills": ["Cypress", "Jest", "Manual Testing"],
+                "hourlyRate": 40,
+                "assignedProjectHours": 300,
+                "availability": {
+                  "timezone": "MST",
+                  "workingHours": {
+                    "monday": [9, 17],
+                    "tuesday": [9, 17],
+                    "wednesday": [9, 17],
+                    "thursday": [9, 17],
+                    "friday": [9, 17]
+                  }
+                }
+              },
+              {
+                "employeeId": "DEV-007",
+                "name": "Kai Ember",
+                "designation": "Backend Developer",
+                "skills": ["PostgreSQL", "AWS Lambda", "API Development"],
+                "hourlyRate": 55,
+                "assignedProjectHours": 370,
+                "availability": {
+                  "timezone": "MST",
+                  "workingHours": {
+                    "monday": [9, 17],
+                    "tuesday": [9, 17],
+                    "wednesday": [9, 17],
+                    "thursday": [9, 17],
+                    "friday": [9, 17]
+                  }
+                }
+              },
+              {
+                "employeeId": "DEV-008",
+                "name": "Zane Frost",
+                "designation": "DevOps Engineer",
+                "skills": ["Docker", "Kubernetes", "CI/CD Pipelines"],
+                "hourlyRate": 65,
+                "assignedProjectHours": 340,
+                "availability": {
+                  "timezone": "MST",
+                  "workingHours": {
+                    "monday": [9, 17],
+                    "tuesday": [9, 17],
+                    "wednesday": [9, 17],
+                    "thursday": [9, 17],
+                    "friday": [9, 17]
+                  }
+                }
+              },
+              {
+                "employeeId": "DEV-009",
+                "name": "Skye Rain",
+                "designation": "Frontend Developer",
+                "skills": ["TypeScript", "Next.js", "Shadcn/UI"],
+                "hourlyRate": 52,
+                "assignedProjectHours": 360,
+                "availability": {
+                  "timezone": "MST",
+                  "workingHours": {
+                    "monday": [9, 17],
+                    "tuesday": [9, 17],
+                    "wednesday": [9, 17],
+                    "thursday": [9, 17],
+                    "friday": [9, 17]
+                  }
+                }
+              }
+            ]
+          },
+          "required_resources": {
+            "skillsByDesignation": {
+              "Frontend Developer": ["React.js", "Next.js", "Tailwind CSS", "TypeScript"],
+              "Backend Developer": ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "AWS Lambda"],
+              "Full Stack Developer": ["React.js", "Node.js", "GraphQL"],
+              "Product Manager": ["Agile", "Scrum", "Roadmapping"],
+              "UX/UI Designer": ["Figma", "Sketch", "Design Systems"],
+              "QA Engineer": ["Cypress", "Jest", "Manual Testing"],
+              "DevOps Engineer": ["Docker", "Kubernetes", "CI/CD Pipelines"],
+              "Team Manager": ["Agile Management", "Resource Planning", "Roadmapping"]
+            },
+            "requiredProjectTimeHours": {
+              "Frontend Developer": 700,
+              "Backend Developer": 740,
+              "Full Stack Developer": 380,
+              "Product Manager": 330,
+              "UX/UI Designer": 300,
+              "QA Engineer": 300,
+              "DevOps Engineer": 340,
+              "Team Manager": 320
+            },
+            "totalRequiredHours": 3110
+          },
+          "projectBudget": {
+            "totalBudgetUSD": 200000,
+            "miscellaneousCostUSD": 5000,
+            "calculationMethod": "Sum of (hourlyRate × hoursAssigned) + miscCost"
+          }
+        }
+      ]
+    }
+}  
